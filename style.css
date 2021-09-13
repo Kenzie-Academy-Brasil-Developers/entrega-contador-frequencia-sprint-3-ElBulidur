@@ -1,0 +1,65 @@
+h1{
+  font-size: 5vw;
+  width: 100vw;
+  text-align: center;
+}  
+div#cabecalho{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 80vw;
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+textarea#textInput{
+  width: 100%;
+  height: 20vw;
+  min-height: fit-content;
+  color: white;
+  text-align: center;
+  background-color: orangered;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-size: 1.5vw;
+}
+
+button#countButton{
+  display: block;
+  width: 200px;
+  height: 40px;
+  margin: 2vw auto;
+  font-size: 80%;
+}
+
+div#respostas{
+  width: 80vw;
+  max-width: 800px;
+  max-height: fit-content;
+  min-height: fit-content;
+  margin: 0px auto;
+  border-radius: 20px;
+  border: 2px solid orangered;
+}
+
+div#lettersDiv{
+  width: 95%;
+  min-height: fit-content;
+  margin: 0px auto;
+  padding: 7px;
+  box-sizing: border-box;
+  text-align: justify;
+  color: blue;
+  border-bottom: 2px solid orange;
+}
+
+div#wordsDiv{
+  width: 95%;
+  min-height: fit-content;
+  margin: 0px auto;
+  padding: 7px;
+  box-sizing: border-box;
+  text-align: justify;
+  color: orange;
+}
